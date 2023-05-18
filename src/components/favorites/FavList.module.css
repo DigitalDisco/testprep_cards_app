@@ -1,0 +1,15 @@
+.wrapList {
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+@media (max-width: 800px) {
+    .wrapList {
+        justify-content: center;
+    }
+}

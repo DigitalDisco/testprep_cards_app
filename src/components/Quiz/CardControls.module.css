@@ -1,0 +1,27 @@
+.controlActions {
+    height: 10%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.controlActions div{
+    user-select: none;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+
+}
+.controls:hover {
+    cursor: pointer;
+    color: #ffcd1f;
+}
+@media (max-width: 800px) {
+    .controlActions {
+        width: 100%;
+        
+    }
+  }

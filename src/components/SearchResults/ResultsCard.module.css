@@ -1,0 +1,27 @@
+.resultsCard {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.results{
+    background-color: white;
+    width: 80%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    
+    border-radius: 14px;
+}
+.results p {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width: 800px) {
+    .resultsCard{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .results {
+        width: 90%;
+    }
+  }

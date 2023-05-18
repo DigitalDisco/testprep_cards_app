@@ -1,0 +1,1 @@
+A memory app which helps for test preperation, has favoritization features and can be used to create new decks. 

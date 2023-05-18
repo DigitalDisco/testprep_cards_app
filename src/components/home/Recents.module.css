@@ -1,0 +1,20 @@
+.wrapList {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+@media (min-width: 800px) {
+  .wrapList {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrapList {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+.home {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 800px) {
+  
+    .wrapper {
+        margin-top: 3rem;
+        width: 54%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .wrapper {
+        margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
